@@ -8,23 +8,19 @@
 </head>
 <body>
     <script>
-        let sum = 1;
+
+        let sum = 0;
         let num = 10;
 
         for( i = 1; i <= num ; i++ ){
-            sum = sum + i ;    
-            console.log( sum );
-
-            if( sum >= 20 ){
-            console.log( "20以上" );      
-            }
-            else if(sum <= 20 ){
-            console.log( "20以下" );
-            }
-
+            sum = sum + i ;   
         }
-
-
+        if( sum >= 20 ){
+        console.log( "20以上" );      
+        }
+        else{
+        console.log( "20以下" );
+        }
     </script>
     
 </body>
